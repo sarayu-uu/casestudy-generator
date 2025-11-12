@@ -152,6 +152,6 @@ ${SHARED_CONSTRAINTS}
 Include 8 key slides or talking points, summarizing the most important aspects of the case study.
 Paragraph/bullet constraints:
 - Use bullets or numbered points for each slide.
-- Keep each slide point concise (3-4 lines).`,
+- Keep each slide have concise point concise (3-4 lines).`,
   },
 ];

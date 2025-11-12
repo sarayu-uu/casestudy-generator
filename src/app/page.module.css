@@ -115,11 +115,65 @@
   gap: 1rem;
 }
 
+.droppable {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sectionCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.85rem;
+  background: #ffffff;
+  box-shadow: 0 16px 24px -20px rgba(15, 23, 42, 0.3);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.dragHint {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+}
+
+.presentation {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.85rem;
+  background: #f9fafb;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.presentation h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .actionsRow {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .secondaryButton {
@@ -142,33 +196,51 @@
   cursor: not-allowed;
 }
 
+.canvasButton {
+  border: 1px solid #1d4ed8;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.6rem 1.1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.canvasButton:hover:not(:disabled) {
+  background: #1e40af;
+}
+
+.canvasButton:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
 .exportError {
   margin: 0;
   color: #b91c1c;
   font-size: 0.9rem;
 }
 
-.detail {
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
-  overflow: hidden;
-  background: #f9fafb;
+.canvasError {
+  margin: 0;
+  color: #1d4ed8;
+  font-size: 0.9rem;
 }
 
-.detail summary {
-  cursor: pointer;
-  padding: 0.9rem 1.1rem;
+.canvasSection {
+  border: 1px solid #e2e8f0;
+  border-radius: 0.85rem;
+  background: linear-gradient(145deg, #f1f5f9, #e2e8f0);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.canvasTitle {
+  margin: 0;
+  font-size: 1.25rem;
   font-weight: 600;
-  background: #f3f4f6;
-  list-style: none;
-}
-
-.detail div {
-  padding: 1rem 1.1rem;
-  color: #374151;
-  white-space: pre-line;
-}
-
-.detail summary::-webkit-details-marker {
-  display: none;
+  color: #0f172a;
 }

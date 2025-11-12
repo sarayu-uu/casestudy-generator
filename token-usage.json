@@ -1,6 +1,66 @@
 {
-  "used": 50706,
+  "used": 9859,
   "history": [
+    {
+      "timestamp": "2025-10-23T13:47:37.558Z",
+      "tokens": 9859,
+      "topic": "bmw in entreprenuership (Business Model Canvas)"
+    },
+    {
+      "timestamp": "2025-10-23T13:44:16.628Z",
+      "tokens": 23902,
+      "topic": "bmw in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-23T05:34:54.343Z",
+      "tokens": 7823,
+      "topic": "figma in entreprenuership (Business Model Canvas)"
+    },
+    {
+      "timestamp": "2025-10-23T05:34:10.780Z",
+      "tokens": 21847,
+      "topic": "figma in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-23T05:22:46.035Z",
+      "tokens": 8629,
+      "topic": "figma in entreprenuership (Business Model Canvas)"
+    },
+    {
+      "timestamp": "2025-10-23T05:22:18.358Z",
+      "tokens": 24031,
+      "topic": "figma in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-23T05:19:46.012Z",
+      "tokens": 9704,
+      "topic": "figma in entreprenuership (Business Model Canvas)"
+    },
+    {
+      "timestamp": "2025-10-23T05:11:04.046Z",
+      "tokens": 23947,
+      "topic": "figma in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-23T04:56:33.895Z",
+      "tokens": 27589,
+      "topic": "figma in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-23T04:27:38.594Z",
+      "tokens": 22639,
+      "topic": "figma in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-22T09:54:54.426Z",
+      "tokens": 23482,
+      "topic": "bmw in entreprenuership"
+    },
+    {
+      "timestamp": "2025-10-22T09:48:10.977Z",
+      "tokens": 20343,
+      "topic": "figma in entreprenuership"
+    },
     {
       "timestamp": "2025-10-22T08:01:08.722Z",
       "tokens": 24137,
@@ -40,56 +100,6 @@
       "timestamp": "2025-10-15T23:46:17.034Z",
       "tokens": 18084,
       "topic": "trial in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T23:43:56.776Z",
-      "tokens": 24012,
-      "topic": "lenevo in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T23:34:27.015Z",
-      "tokens": 24314,
-      "topic": "ovenstory in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T23:25:40.068Z",
-      "tokens": 25207,
-      "topic": "phillips in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T23:19:14.021Z",
-      "tokens": 23525,
-      "topic": "canva in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T23:11:46.133Z",
-      "tokens": 21960,
-      "topic": "canva in entrepprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T23:04:06.465Z",
-      "tokens": 23225,
-      "topic": "hike mesenger in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T22:56:33.864Z",
-      "tokens": 24671,
-      "topic": "gupshup in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T22:50:52.820Z",
-      "tokens": 22683,
-      "topic": "SELCO in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T22:35:21.662Z",
-      "tokens": 23686,
-      "topic": "Figma in entreprenuership"
-    },
-    {
-      "timestamp": "2025-10-15T21:55:54.631Z",
-      "tokens": 26549,
-      "topic": "FIGMA in entrepreneurship"
     }
   ]
 }

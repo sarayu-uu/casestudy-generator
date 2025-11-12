@@ -1,0 +1,192 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  width: 100%;
+  padding: 1.75rem;
+  overflow-x: auto;
+  background: linear-gradient(145deg, #050f1f 0%, #0e2544 100%);
+  box-sizing: border-box;
+}
+
+.canvasFrame {
+  width: 1600px;
+  min-width: 1600px;
+  min-height: 560px;
+  height: auto;
+  background: #0a1d37;
+  border-radius: 1rem;
+  box-shadow: 0 28px 60px rgba(3, 10, 24, 0.45);
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0.65rem;
+  overflow: hidden;
+  gap: 1px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows:
+    minmax(72px, auto)
+    minmax(220px, auto)
+    minmax(220px, auto)
+    minmax(180px, auto);
+  grid-template-areas:
+    "header header header header header"
+    "partners activities propositions relationships segments"
+    "partners resources propositions channels segments"
+    "cost cost cost revenue revenue";
+}
+
+/* HEADER */
+.gridHeader {
+  grid-area: header;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  background: rgba(8, 20, 40, 0.92);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #f8fafc;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+.gridHeader span:first-child {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+}
+
+.gridHeader span:last-child {
+  font-size: 0.84rem;
+  letter-spacing: 0.04em;
+  margin-left: auto;
+  text-align: right;
+}
+
+/* MAIN SECTION LAYOUT (Horizontal middle area) */
+.gridCell {
+  background: rgba(9, 21, 41, 0.92);
+  padding: 0.85rem 0.95rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  min-height: 0;
+  height: 100%;
+  color: #cbd5e1;
+  text-align: left;
+}
+
+/* Specific Grid Areas */
+.keyPartners { grid-area: partners; }
+.keyActivities { grid-area: activities; }
+.valuePropositions { grid-area: propositions; }
+.customerRelationships { grid-area: relationships; }
+.customerSegments { grid-area: segments; }
+.keyResources { grid-area: resources; }
+.channels { grid-area: channels; }
+.costStructure { grid-area: cost; }
+.revenueModel { grid-area: revenue; }
+
+
+/* HEADER STYLES */
+.gridCell h3 {
+  margin: 0;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+  color: #f8fafc;
+}
+
+.gridCell p {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+
+.bulletList {
+  margin: 0;
+  padding-left: 1.05rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: #cbd5e1;
+  font-size: 0.84rem;
+  line-height: 1.4;
+  list-style-type: disc;
+}
+
+.bulletList li {
+  margin: 0;
+  padding: 0;
+}
+
+.downloadRow {
+  width: 1600px;
+  min-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.85rem;
+  padding: 0 0 0.5rem 0.25rem;
+  box-sizing: border-box;
+}
+
+.downloadButton {
+  appearance: none;
+  border: none;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #f8fafc;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.65rem 1.6rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.downloadButton:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.28);
+  filter: brightness(1.05);
+}
+
+.downloadButton:disabled {
+  cursor: progress;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+.status {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.error {
+  font-size: 0.85rem;
+  color: #f87171;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+
+  .downloadRow {
+    padding-left: 0;
+  }
+}
